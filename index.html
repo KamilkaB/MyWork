@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section">
+        <div class="box">
+            <button class="tab"><img src="img/pic01.png" class="img" alt=""></button>
+            <button class="tab"><img src="img/pic02.png" class="img" alt=""></button>
+            <button class="tab"><img src="img/pic03.png" class="img" alt=""></button>
+            <button class="tab"><img src="img/pic04.png" class="img" alt=""></button>
+            <button class="tab"><img src="img/pic05.png" class="img" alt=""></button>
+            <button class="tab"><img src="img/pic06.png" class="img" alt=""></button>
+        </div>
+        <div class="box2">
+            <img src="img/pic01.png" id="img2" class="img_item active" alt="">
+            <img src="img/pic02.png" id="img2" class="img_item" alt="">
+            <img src="img/pic03.png" id="img2" class="img_item" alt="">
+            <img src="img/pic04.png" id="img2" class="img_item" alt="">
+            <img src="img/pic05.png" id="img2" class="img_item" alt="">
+            <img src="img/pic06.png" id="img2" class="img_item" alt="">
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="box">
+            <button onclick="count()" class="tabble2"><img src="img/pic01.png" id="img1" class="img3" alt=""></button>
+            <button onclick="count()" class="tabble2"><img src="img/pic02.png" class="img3" alt=""></button>
+            <button onclick="count()" class="tabble2"><img src="img/pic03.png" class="img3" alt=""></button>
+            <button onclick="count()" class="tabble2"><img src="img/pic04.png" class="img3" alt=""></button>
+            <button onclick="count()" class="tabble2"><img src="img/pic05.png" class="img3" alt=""></button>
+            <button onclick="count()" class="tabble2"><img src="img/pic06.png" class="img3" alt=""></button>
+        </div>
+        <div class="cart">
+            <h2 id="data">number of goods: </h2>
+            <div class="container" id="container">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="container3">
+        <div class='box3'>
+            <h2 id="numbers">45.00 грн</h2>
+            <button onclick="minus()" class="plus" id="button">-</button>
+            <div class="plus" id="counter">1</div>
+            <button onclick="add()" class="plus">+</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="code.js"></script>
+</body>
+
+</html>
